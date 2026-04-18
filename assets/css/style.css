@@ -608,6 +608,24 @@ em     { font-style: italic; }
   background-color: var(--color-bg-alt);
 }
 
+/* Espacement reduit entre paragraphes sur la page NAPSOtherapie */
+.page-napso .section-text p {
+  margin-bottom: 0.3rem;
+}
+
+.page-napso .section-text p + p {
+  margin-top: 0.1rem;
+}
+
+.page-napso .section {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.page-napso .section h2 {
+  margin-bottom: 1.2rem;
+}
+
 .section-citation {
   background-color: var(--color-bg);
 }
@@ -770,7 +788,7 @@ em     { font-style: italic; }
   margin-top: 1rem;
   font-family: var(--font-decorative);
   font-style: normal;
-  font-size: 1.1rem;
+  font-size: 1.8rem;
   color: var(--color-accent);
 }
 
@@ -1132,6 +1150,22 @@ em     { font-style: italic; }
 .apropos-portrait-secondary {
   margin-top: 1.5rem;
   display: block;
+}
+
+.apropos-portrait-inline {
+  float: right;
+  margin: 0 0 1rem 2rem;
+  max-width: 280px;
+}
+
+.apropos-portrait-inline img {
+  border-radius: var(--radius-lg);
+  width: 100%;
+  box-shadow: 0 4px 24px var(--color-shadow);
+}
+
+.section-apropos .citation {
+  clear: both;
 }
 
 .apropos-content .section-text {

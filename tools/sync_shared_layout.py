@@ -95,7 +95,7 @@ def render_header(current_key: str) -> str:
         <!-- HEADER -->
         <header class="site-header">
             <nav class="site-nav" aria-label="Navigation principale">
-                <a href="/" class="nav-logo" style="font-family: 'Parisienne', cursive;">Hélène Lardeur</a>
+                <a href="/" class="nav-logo" style="font-family: 'Island Moments', cursive;">Hélène Lardeur</a>
                 <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Ouvrir le menu de navigation">
                     <span class="nav-toggle-bar"></span>
                     <span class="nav-toggle-bar"></span>
@@ -134,7 +134,7 @@ def render_footer() -> str:
                 <div class="footer-grid">
 
                     <div class="footer-col">
-                        <a href="/" class="footer-logo" style="font-family: 'Parisienne', cursive;">Hélène Lardeur</a>
+                        <a href="/" class="footer-logo" style="font-family: 'Island Moments', cursive;">Hélène Lardeur</a>
                         <p>Hélène Lardeur, Psychopraticienne, je reçois adultes, seniors, adolescents et enfants dans mon cabinet à Aix-en-Provence et de La Ciotat.</p>
                         <p>En expatriation ? Je propose des séances en téléconsultation.</p>
 {SOCIAL_LINKS}
